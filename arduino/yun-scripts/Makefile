@@ -44,7 +44,6 @@ define Package/yun-scripts/install
 	$(INSTALL_BIN) ./files/usr/bin/run-bridge $(1)/usr/bin/
 	$(INSTALL_BIN) ./files/usr/bin/reset-mcu $(1)/usr/bin/
 	$(INSTALL_BIN) ./files/usr/bin/special-storage-available $(1)/usr/bin/
-	$(INSTALL_BIN) ./files/usr/bin/pretty-wifi-info.lua $(1)/usr/bin
 	$(INSTALL_BIN) ./files/usr/bin/upgrade-all $(1)/usr/bin
 	$(INSTALL_BIN) ./files/usr/bin/extract-built-date $(1)/usr/bin
 	$(INSTALL_BIN) ./files/usr/bin/extract-built-date-from-sysupgrade-image $(1)/usr/bin
